@@ -1,0 +1,28 @@
+INFO	2024-01-26 11:58:11,514	0	org.example.Service.Main	[main]	Attempt to add a book.War and Peace,Tolstoy,2
+INFO	2024-01-26 11:58:11,517	3	org.example.Service.Main	[main]	Attempt to add a book.Outlander,Gabaldon,-1
+WARN	2024-01-26 11:58:11,519	5	org.example.Service.Main	[main]	throwing book exception due to wrong rating values: -1
+INFO	2024-01-26 11:59:06,298	0	org.example.Service.Main	[main]	Attempt to add a book.b,b,5
+INFO	2024-01-26 11:59:34,486	28188	org.example.Service.Main	[main]	Attempt to add a book.bbb,ccc,-1
+WARN	2024-01-26 11:59:34,488	28190	org.example.Service.Main	[main]	throwing book exception due to wrong rating values: -1
+INFO	2024-01-26 12:01:44,136	0	org.example.Service.Main	[main]	Attempt to add a book.bbb,ccc,-1
+WARN	2024-01-26 12:01:44,138	2	org.example.Service.Main	[main]	throwing book exception due to wrong rating values: -1
+INFO	2024-01-26 12:07:03,558	0	org.example.Service.Main	[main]	Attempt to add a book.bbb,bbb,-1
+WARN	2024-01-26 12:07:03,559	1	org.example.Service.Main	[main]	throwing book exception due to wrong rating values: -1
+INFO	2024-01-26 12:07:11,265	7707	org.example.Service.Main	[main]	Attempt to add a book.bbb,ccc,5
+INFO	2024-01-26 13:07:22,749	0	org.example.Service.Main	[main]	Attempt to add a book.b,b,3
+INFO	2024-01-26 15:19:22,804	1	org.example.Service.Main	[main]	Attempt to add a book.bbb,bbb,5
+INFO	2024-01-26 15:19:33,281	10478	org.example.Service.Main	[main]	Attempt to add a book.aaa,aab,3
+INFO	2024-01-26 15:21:56,834	0	org.example.Service.Main	[main]	Attempt to add a book.aab,bbb,5
+INFO	2024-01-26 15:22:04,862	8028	org.example.Service.Main	[main]	Attempt to add a book.aaa,bbb,3
+INFO	2024-01-26 15:53:41,484	0	org.example.Service.Main	[main]	Attempt to add a book.bbb,brown,5
+INFO	2024-01-26 15:53:53,200	11716	org.example.Service.Main	[main]	Attempt to add a book.cary,green,3
+INFO	2024-01-26 15:55:00,604	0	org.example.Service.Main	[main]	Attempt to add a book.bbb,ccc,5
+INFO	2024-01-26 15:55:16,229	15625	org.example.Service.Main	[main]	Attempt to add a book.ccc,ddd,4
+INFO	2024-01-26 15:58:37,686	0	org.example.Service.Main	[main]	Attempt to add a book.,,5
+WARN	2024-01-26 15:58:37,687	1	org.example.Service.Main	[main]	throwing book exception due to misformatted title
+INFO	2024-01-26 16:13:00,261	0	org.example.Service.Main	[main]	Attempt to add a book.War and Peace,Tolstoy,2
+INFO	2024-01-26 16:13:00,267	6	org.example.Service.Main	[main]	Attempt to add a book.Outlander,Gabaldon,-1
+WARN	2024-01-26 16:13:00,271	10	org.example.Service.Main	[main]	throwing book exception due to wrong rating values: -1
+INFO	2024-01-26 16:16:34,874	0	org.example.Service.Main	[main]	Attempt to add a book.bbb,ccc,5
+INFO	2024-01-29 06:58:58,828	0	org.example.Service.Main	[main]	Attempt to add a book.bbb,ccc,4
+INFO	2024-01-29 06:59:12,934	14106	org.example.Service.Main	[main]	Attempt to add a book.bba,aab,5
