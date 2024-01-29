@@ -28,6 +28,9 @@ public class CLIParser {
             return interpretViewAction();
         } else if (command.equals("delete")) {
             return interpretDeleteAction();
+        } else if (command.equals("search")) {
+            return interpretSearchAction();
+
 //check that user made the correct entry
         } else throw new CLIException("not a valid entry");
 
@@ -63,7 +66,16 @@ public class CLIParser {
 
 
     }
-
+    public String interpretSearchAction() throws BookServiceException{
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Please enter an author to search");
+        String authorInput = sc.nextLine();
+        BookEntry matchingBook = bookService.getBookByAuthor(authorInput);
+        if (matchingBook == null){
+            return "There was no matching recipe found.";
+        }else
+        return "Here is a book by that author:" + matchingBook.toString();
+    }
 
 
 }

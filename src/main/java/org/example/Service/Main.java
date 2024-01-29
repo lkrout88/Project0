@@ -21,25 +21,25 @@ public class Main {
 
         boolean flag = true;
         // prompt user for input
-
+        System.out.println("Welcome to my book rating system");
         while (flag) {
-            System.out.println("add / view / delete");
+            System.out.println("add / view / delete / search");
             String input = sc.nextLine();
             try {
 
                 String output = cliParser.parseCommandReturnOutput(input);
                 System.out.println(output);
-    // if user enters anything other than add view or delete
-            } catch(CLIException exception){
+                // if user enters anything other than add view or delete
+            } catch (CLIException exception) {
                 System.out.println(exception.getMessage());
                 exception.printStackTrace();
 
-            } catch(BookServiceException exception){
-               System.out.println(exception.getMessage());
+            } catch (BookServiceException exception) {
+                System.out.println(exception.getMessage());
                 exception.printStackTrace();
 
 
-        }
+            }
         }
     }
 }
